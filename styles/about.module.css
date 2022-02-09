@@ -1,0 +1,43 @@
+.aboutHero {
+  background: linear-gradient(
+      to right,
+      rgba(0.7, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../public/img/bg.jpg);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.aboutMessage {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.aboutMessageTest {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutUsLeft {
+  width: 40vw;
+  margin-right: 40px;
+}
+
+.aboutUsMessage {
+  font-size: 40px;
+  text-transform: uppercase;
+}

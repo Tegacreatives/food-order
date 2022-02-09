@@ -1,0 +1,33 @@
+.footerContainer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+.footerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.footerLogo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.socialLinks {
+  display: flex;
+  padding-right: 50px;
+}
+
+.socialLink {
+  padding-right: 50px;
+}
+
+.footerBottom {
+  padding-bottom: 10px;
+  text-align: center;
+}

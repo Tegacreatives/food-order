@@ -1,0 +1,42 @@
+.featuredContainer {
+  background: linear-gradient(
+      to right,
+      rgba(0.7, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(../public/img/fbg.jpg);
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.featuredMessage {
+  font-size: 30px;
+}
+
+.featuredButton {
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  border: none;
+  background: #e31837;
+  color: #fff;
+  transition: 0.2s ease-out;
+}
+
+.featuredButton:hover {
+  background: #ffc500;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  color: #000;
+}
+
+.featuredText {
+  font-size: 20px;
+}
